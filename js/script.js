@@ -25,3 +25,5 @@ document.querySelector('#line').addEventListener('click', function() {
         spanList[i].style = '';
     }
 })
+
+document.querySelector('#jump').addEventListener('click', function() {})
