@@ -16,34 +16,6 @@
     color: #fff;
 }
 
-.wrapper span:nth-child(1) {
-    animation-delay: 120ms;
-}
-
-.wrapper span:nth-child(2) {
-    animation-delay: 240ms;
-}
-
-.wrapper span:nth-child(3) {
-    animation-delay: 360ms;
-}
-
-.wrapper span:nth-child(4) {
-    animation-delay: 480ms;
-}
-
-.wrapper span:nth-child(5) {
-    animation-delay: 600ms;
-}
-
-.wrapper span:nth-child(6) {
-    animation-delay: 720ms;
-}
-
-.wrapper span:nth-child(7) {
-    animation-delay: 840ms;
-}
-
 @keyframes jump {
     33% {
         text-shadow: 0 60px #f37121, 0 150px #f2aaaa;
