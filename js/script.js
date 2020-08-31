@@ -26,4 +26,14 @@ document.querySelector('#line').addEventListener('click', function() {
     }
 })
 
-document.querySelector('#jump').addEventListener('click', function() {})
+document.querySelector('#jump').addEventListener('click', function() {
+    var spanList = document.querySelector('.wrapper').children;
+    var speedCount = 0;
+    for (var i = 0; i < spanList.length; i++) {
+        if (spanList[i].textContent !== " ") {
+            speedCount += 120;
+            var animationSpeed = 'animation-delay: ' + speedCount + 'ms;';
+            spanList[i].style = animationSpeed;
+        }
+    }
+})
