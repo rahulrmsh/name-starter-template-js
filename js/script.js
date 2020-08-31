@@ -1,8 +1,8 @@
-var speedCount = 0;
 document.querySelector('#submit').addEventListener('click', function() {
     var inputValue = document.querySelector('#listText').value;
     if (inputValue !== null && inputValue !== null && inputValue !== undefined && inputValue !== 0 && inputValue !== "" && inputValue !== false && inputValue !== NaN) {
         document.querySelector('.wrapper').innerHTML = '';
+        var speedCount = 0;
         for (var i = 0; i < inputValue.length; i++) {
             var innerSpan = document.createElement('span');
             if (inputValue.charAt(i) !== " ") {
@@ -16,5 +16,12 @@ document.querySelector('#submit').addEventListener('click', function() {
             document.querySelector('.wrapper').appendChild(innerSpan);
             document.querySelector('#listText').value = '';
         }
+    }
+})
+
+document.querySelector('#line').addEventListener('click', function() {
+    var spanList = document.querySelector('.wrapper').children;
+    for (var i = 0; i < spanList.length; i++) {
+        spanList[i].style = '';
     }
 })
