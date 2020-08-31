@@ -86,7 +86,7 @@ body {
     top: 0;
     left: 0;
     z-index: -1;
-    background: #e0e5ec;
+    background: #fff;
     transition: all 0.3s ease;
 }
 
