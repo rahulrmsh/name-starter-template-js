@@ -6,4 +6,4 @@
 
 | Text - Line | Text - Jump |
 | --- | --- |
-| ![screenshot](images/screens/screens2.png) | ![screenshot](images/screens/screens3.png) |
+| ![screenshot](images/screens/screens2.png) | ![screenshot](images/screens/screens5.png) |
