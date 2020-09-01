@@ -1,5 +1,7 @@
 # Funky Text
 
+A simple fun js project.
+
 | Home - Line | Home - Jump |
 | --- | --- |
 | ![screenshot](images/screens/screens1.png) | ![screenshot](images/screens/screens4.png) |
